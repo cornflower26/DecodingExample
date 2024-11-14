@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/ajanusze/SLAP/tmp/tmp.VUZZfEmhJx -B /home/ajanusze/SLAP/tmp/tmp.VUZZfEmhJx/cmake-build-debug-remote-host-1
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/ajanusze/SLAP/tmp/tmp.0gQ2Ymcrd2 -B /home/ajanusze/SLAP/tmp/tmp.0gQ2Ymcrd2/cmake-build-debug-remote-host-1
 -- The C compiler identification is GNU 11.4.0
 -- The CXX compiler identification is GNU 11.4.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ajanusze/SLAP/tmp/tmp.VUZZfEmhJx/cmake-build-debug-remote-host-1
+-- Build files have been written to: /home/ajanusze/SLAP/tmp/tmp.0gQ2Ymcrd2/cmake-build-debug-remote-host-1

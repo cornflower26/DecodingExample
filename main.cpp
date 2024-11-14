@@ -11,15 +11,20 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     std::shared_ptr<ILDCRTParams<BigInteger>> parms = GenerateDCRTParams<BigInteger>(1024,
-                                                                                     1,8);
+                                                                                     1,59);
     DCRTPoly plaintextParams = DCRTPoly(parms,EVALUATION);
     plaintextParams.SetValuesToZero();
     DiscreteFourierTransform::Initialize(plaintextParams.GetRingDimension() * 2, plaintextParams.GetRingDimension() / 2);
     CCParams<CryptoContextCKKSRNS> CKKSparameters;
     CKKSparameters.SetMultiplicativeDepth(1);
-    CKKSparameters.SetScalingModSize(25);
+    CKKSparameters.SetScalingModSize(40);
     //plaintextParams.GetModulus().GetLengthForBase(2)
     CKKSparameters.SetBatchSize(plaintextParams.GetRingDimension()/2);
+
+
+    CKKSparameters.SetScalingTechnique(FIXEDAUTO);
+
+
     //CKKSparameters.SetPlaintextModulus(plaintextParams.GetModulus().ConvertToInt());
     CryptoContext<DCRTPoly> CKKSContext = GenCryptoContext(CKKSparameters);
     CKKSContext->GetCryptoParameters()->SetElementParams(plaintextParams.GetParams());
@@ -44,7 +49,7 @@ int main() {
     decryptedCKKS->SetLevel(1); // 1
     decryptedCKKS->SetScalingFactor(40); // 40
     decryptedCKKS->SetSlots(poly_result.GetRingDimension()/2); //which is the N/2
-    decryptedCKKS->Decode(1,40,NORESCALE,CKKSparameters.GetExecutionMode());
+    decryptedCKKS->Decode(1,40,FIXEDAUTO,CKKSparameters.GetExecutionMode());
     //std::cout << Decode(*decryptedCKKS.get(),1, 40, NORESCALE, EXEC_EVALUATION) << std::endl;
 
     std::vector<double> packed_result = decryptedCKKS->GetRealPackedValue();

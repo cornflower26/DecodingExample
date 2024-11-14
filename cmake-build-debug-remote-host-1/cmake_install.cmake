@@ -1,4 +1,4 @@
-# Install script for directory: /home/ajanusze/SLAP/tmp/tmp.VUZZfEmhJx
+# Install script for directory: /home/ajanusze/SLAP/tmp/tmp.0gQ2Ymcrd2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ajanusze/SLAP/tmp/tmp.VUZZfEmhJx/cmake-build-debug-remote-host-1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ajanusze/SLAP/tmp/tmp.0gQ2Ymcrd2/cmake-build-debug-remote-host-1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
