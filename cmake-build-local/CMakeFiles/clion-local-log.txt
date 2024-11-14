@@ -1,0 +1,7 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/antoniajanuszewicz/CLionProjects/DecodingExample -B /Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local
+
+Problems were encountered while collecting compiler information:
+	clang: error: unsupported option '-fopenmp'

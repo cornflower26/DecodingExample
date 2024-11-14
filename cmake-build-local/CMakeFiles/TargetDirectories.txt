@@ -1,0 +1,3 @@
+/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/CMakeFiles/DecodingExample.dir
+/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/CMakeFiles/edit_cache.dir
+/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/CMakeFiles/rebuild_cache.dir
