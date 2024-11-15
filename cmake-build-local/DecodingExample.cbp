@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DecodingExample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\OpenFHE\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecodingExample">
+				<Option output="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/DecodingExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/openfhe"/>
+					<Add directory="/usr/local/include/openfhe/core"/>
+					<Add directory="/usr/local/include/openfhe/pke"/>
+					<Add directory="/usr/local/include/openfhe/binfhe"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 DecodingExample"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DecodingExample/fast">
+				<Option output="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/DecodingExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/openfhe"/>
+					<Add directory="/usr/local/include/openfhe/core"/>
+					<Add directory="/usr/local/include/openfhe/pke"/>
+					<Add directory="/usr/local/include/openfhe/binfhe"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 DecodingExample/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/antoniajanuszewicz/CLionProjects/DecodingExample/cmake-build-local/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/main.cpp">
+			<Option target="DecodingExample"/>
+		</Unit>
+		<Unit filename="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/../../../../usr/local/lib/OpenFHE/OpenFHEConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\OpenFHE\"/>
+		</Unit>
+		<Unit filename="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/../../../../usr/local/lib/OpenFHE/OpenFHEConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\OpenFHE\"/>
+		</Unit>
+		<Unit filename="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/../../../../usr/local/lib/OpenFHE/OpenFHETargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\OpenFHE\"/>
+		</Unit>
+		<Unit filename="/Users/antoniajanuszewicz/CLionProjects/DecodingExample/../../../../usr/local/lib/OpenFHE/OpenFHETargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\OpenFHE\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
